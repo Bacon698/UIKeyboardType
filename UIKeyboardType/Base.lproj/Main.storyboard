@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeDefault" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FXe-eW-RA6">
+                                <rect key="frame" x="100.5" y="100" width="174.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeASCIICapable" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ytR-Sd-Xw6">
+                                <rect key="frame" x="79.5" y="139" width="216" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeNumbersAndPunctuation" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sLH-8C-G73">
+                                <rect key="frame" x="43" y="178" width="290" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeURL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fMK-y3-IJR">
+                                <rect key="frame" x="110" y="217" width="155" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeNumberPad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i7v-2S-YKR">
+                                <rect key="frame" x="86" y="256" width="204" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeWebSearch" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QXx-30-4cC">
+                                <rect key="frame" x="87.5" y="490" width="201" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="webSearch"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeASCIICapableNumberPad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ilh-AA-htb">
+                                <rect key="frame" x="42" y="529" width="292" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="ASCIICapableNumberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeTwitter" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Whn-eL-skl">
+                                <rect key="frame" x="102" y="451" width="171.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="twitter"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypePhonePad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CU8-cW-8Ev">
+                                <rect key="frame" x="91" y="295" width="193.5" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeNamePhonePad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iZM-7h-xLl">
+                                <rect key="frame" x="72.5" y="334" width="231" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="namePhonePad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeEmailAddress" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eDe-XT-xO8">
+                                <rect key="frame" x="80.5" y="373" width="215" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UIKeyboardTypeDecimalPad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VbT-nc-qig">
+                                <rect key="frame" x="85" y="412" width="204" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="所有键盘类型UIKeyboardType" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8x-Pt-es9">
+                                <rect key="frame" x="86" y="30" width="203" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="0r2-7d-IQw"/>
+                                    <constraint firstAttribute="width" constant="203" id="3oN-SS-d8q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QXx-30-4cC" firstAttribute="top" secondItem="Whn-eL-skl" secondAttribute="bottom" constant="9" id="0ZI-LJ-fLO"/>
+                            <constraint firstItem="i7v-2S-YKR" firstAttribute="top" secondItem="fMK-y3-IJR" secondAttribute="bottom" constant="9" id="0rf-tA-LSL"/>
+                            <constraint firstItem="i7v-2S-YKR" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="6yD-MQ-fpa"/>
+                            <constraint firstItem="fMK-y3-IJR" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="7iz-cP-w1u"/>
+                            <constraint firstItem="sLH-8C-G73" firstAttribute="top" secondItem="ytR-Sd-Xw6" secondAttribute="bottom" constant="9" id="EhX-lf-lNT"/>
+                            <constraint firstItem="sLH-8C-G73" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="Ia5-Pc-NUm"/>
+                            <constraint firstItem="I8x-Pt-es9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="LaQ-fh-hHJ"/>
+                            <constraint firstItem="Whn-eL-skl" firstAttribute="top" secondItem="VbT-nc-qig" secondAttribute="bottom" constant="9" id="NnV-qT-Zq9"/>
+                            <constraint firstItem="VbT-nc-qig" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="QQ0-aV-ZSJ"/>
+                            <constraint firstItem="QXx-30-4cC" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="RFi-rX-MVE"/>
+                            <constraint firstItem="I8x-Pt-es9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RIR-Lg-wnv"/>
+                            <constraint firstItem="VbT-nc-qig" firstAttribute="top" secondItem="eDe-XT-xO8" secondAttribute="bottom" constant="9" id="Vh7-dw-ivr"/>
+                            <constraint firstItem="fMK-y3-IJR" firstAttribute="top" secondItem="sLH-8C-G73" secondAttribute="bottom" constant="9" id="XIP-jJ-6xD"/>
+                            <constraint firstItem="iZM-7h-xLl" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="Y8P-iF-1bE"/>
+                            <constraint firstItem="CU8-cW-8Ev" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="Yhi-ai-ScC"/>
+                            <constraint firstItem="eDe-XT-xO8" firstAttribute="top" secondItem="iZM-7h-xLl" secondAttribute="bottom" constant="9" id="dJ7-eB-cAx"/>
+                            <constraint firstItem="ytR-Sd-Xw6" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="dQe-an-uVS"/>
+                            <constraint firstItem="sLH-8C-G73" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="dnq-CX-TTC"/>
+                            <constraint firstItem="eDe-XT-xO8" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="eJf-do-Ek1"/>
+                            <constraint firstItem="CU8-cW-8Ev" firstAttribute="top" secondItem="i7v-2S-YKR" secondAttribute="bottom" constant="9" id="iWe-aY-UMA"/>
+                            <constraint firstItem="FXe-eW-RA6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jkj-Du-Ebz"/>
+                            <constraint firstItem="FXe-eW-RA6" firstAttribute="top" secondItem="I8x-Pt-es9" secondAttribute="bottom" constant="10" id="l0O-SC-Fyk"/>
+                            <constraint firstItem="ytR-Sd-Xw6" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="lpO-2H-mOi"/>
+                            <constraint firstItem="Whn-eL-skl" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="mUY-jz-4ZN"/>
+                            <constraint firstItem="i7v-2S-YKR" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="o2u-0r-1gB"/>
+                            <constraint firstItem="ytR-Sd-Xw6" firstAttribute="top" secondItem="FXe-eW-RA6" secondAttribute="bottom" constant="9" id="pGn-mh-sR9"/>
+                            <constraint firstItem="Ilh-AA-htb" firstAttribute="top" secondItem="QXx-30-4cC" secondAttribute="bottom" constant="9" id="qgc-bK-zSB"/>
+                            <constraint firstItem="fMK-y3-IJR" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="rKq-YB-qdq"/>
+                            <constraint firstItem="Ilh-AA-htb" firstAttribute="centerX" secondItem="FXe-eW-RA6" secondAttribute="centerX" id="rZh-F6-Zg5"/>
+                            <constraint firstItem="iZM-7h-xLl" firstAttribute="top" secondItem="CU8-cW-8Ev" secondAttribute="bottom" constant="9" id="xfr-YM-Yjd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>
